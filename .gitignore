@@ -1,0 +1,13 @@
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Secrets (use sealed-secrets instead)
+*-secret.yaml
+!*-secret.yaml.example
+
+# Claude
+.claude/
