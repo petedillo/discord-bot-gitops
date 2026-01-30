@@ -1,0 +1,2 @@
+# This directory contains SealedSecrets
+# Run ./scripts/generate-sealed-secret.sh to generate the discord-bot-credentials.yaml
