@@ -7,9 +7,9 @@ metadata:
 resources:
   - namespace.yaml
   - deployment.yaml
-  # Plain secret.yaml removed - using SealedSecret instead
-  # Run ./scripts/generate-sealed-secret.sh to create the sealed secret
+  # Sealed secrets for secure credential management
   - sealed-secrets/discord-bot-credentials.yaml
+  - sealed-secrets/nexus-registry.yaml
 
 commonLabels:
   app.kubernetes.io/managed-by: argocd

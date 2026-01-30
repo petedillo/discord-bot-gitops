@@ -1,0 +1,14 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: nexus-registry
+  namespace: discord-bot
+spec:
+  encryptedData:
+    .dockerconfigjson: AgAp8W9bMw+XpmRmcyZbGkC5vbhq4+k9jSbLODbvSuXbovKoXI9CEyScDbqOST9r5KOnE7wQm/ru5koOQWsUK9XSEeFNrMKOvgBk+09Pr5sR4iIIsIOs57xD58iugzzKhbGsSA15SthWZIwPakwkhR2wG/WJaFFDZubtmPNkz25FjR8+//jE3GefAMSqUcYzURC8+9etSGMjeg0Y//DGTSvtz/8sl8m8nsnbdS86RiExtJwKAYBJlQQ+gGJFm4wTg6sbKyPx3fxepqHE4R4XL999E3ygZUe4mYwCp8Zyjhi1pEmzfRLfPlGikW/6U8/gpiRtCOdBA7DrKDmGr7W6JT4rgjuZFUez2ONrVj2zm/GnL95slSl3/maoS6LWw0on4mtXmECg4ta0WzY/riSGGjn3X3Z2nrzjcghKWlDKtznlg+wmYFb1Ze6QfE/KQ2zCKbKbosUXjmJX11DBk+nqtfa4Fmm4au8Bi2iJRG0nXv/2F6WZIQqsf9PGZm3gObv7xcGO0dlpg8lkZ+02t7iupC6KD5N2MRB/14UU8oaPbiQuRZAq9JGM4bByJp4qyyhXOhVioebv5SXbO2D/LGBwYiF0ipenXgdRUWouvwAO/gqeceY2kjG38u6macMqKD+rrFew05dOUM1jh0J9bQPR4WADAKrkVqHH/PJFDgWNngfJWEhLiULJ6cMoxELPQ5n/aRbdkImT8uXRyek5RhcsBhSqhnPC0oqiBKmTGLJHWL0GjmkLgG4whOphltzggkmR20/P1XZZzyF7QYJoEo7OcmIx8EeEtYYBR1SGRNMQTd205ZQNcRM2sHz6yBO7P2dHaOxOZt5Wgz1UNul75KcgbS4mW2BZ+VVAnwUObkPNjt6cknPG+uOPGv8D0L9K1C3jD51PjI8I3t/CESP83BlJNQ==
+  template:
+    metadata:
+      name: nexus-registry
+      namespace: discord-bot
+    type: kubernetes.io/dockerconfigjson
