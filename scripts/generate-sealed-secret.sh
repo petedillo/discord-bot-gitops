@@ -61,7 +61,7 @@ if [[ -z "$ALLOWED_USER_IDS" ]]; then
 fi
 
 if [[ -z "$OLLAMA_HOST" ]]; then
-    OLLAMA_HOST="http://100.120.70.80:11434"
+    OLLAMA_HOST="http://192.168.50.59:11434"
     echo -e "${YELLOW}Using default OLLAMA_HOST: $OLLAMA_HOST${NC}"
 fi
 
