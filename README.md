@@ -12,8 +12,6 @@ kubernetes/
 │   ├── secret.yaml
 │   └── kustomization.yaml
 └── overlays/
-    ├── dev/              # Development environment
-    ├── stage/            # Staging environment
     └── prod/             # Production environment
 ```
 
@@ -31,6 +29,4 @@ kubeseal --format=yaml < secret.yaml > sealed-secret.yaml
 
 ## Image Tags
 
-- `dev-latest` - Development builds
-- `stage-latest` - Staging builds
-- `prod-latest` - Production builds
+- `latest` - Production builds
